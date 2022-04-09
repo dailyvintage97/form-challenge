@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="/FORM-CHALLENGE" method="GET">
+        <section>
+          <h2>How can we help you?</h2>
+          <ul>
+            <li>
+              <label for="username">Your Name</label>
+              <input type="text" id="username" name="user-name" required />
+            </li>
+            <li>
+              <label for="useremail">Your E-mail Address</label>
+              <input type="email" id="useremail" name="user-email" required />
+            </li>
+            <li>
+              <label for="userphone">Your Phone Number</label>
+              <input type="tel" id="userphone" name="user-phone" required />
+            </li>
+            <li>
+              <label for="usermessage">Your Message</label>
+              <textarea
+                id="usermessage"
+                name="user-message"
+                rows="5"
+              ></textarea>
+            </li>
+            <li>
+              <label for="howfind">How did you find us?</label>
+              <select name="how-find" id="howfind">
+                <option value="web-search">Web search</option>
+                <option value="advertisement">Advertisement</option>
+              </select>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>How should we reply?</h2>
+          <ul>
+            <li class="flex">
+              <input
+                type="radio"
+                name="userreply"
+                id="user-reply-call"
+                required
+                class="check"
+                value="phone"
+              />
+              <label for="user-reply-call">Call me</label>
+            </li>
+            <li class="flex">
+              <input
+                type="radio"
+                name="userreply"
+                id="user-reply-email"
+                required
+                class="check"
+                value="email"
+              />
+              <label for="user-reply-email">Send me an email</label>
+            </li>
+            <li class="flex">
+              <input
+                type="radio"
+                name="userreply"
+                id="user-reply-dont"
+                required
+                class="check"
+                value="none"
+              />
+              <label for="user-reply-dont">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+        <section class="flex">
+          <input type="checkbox" required class="check" />
+          <label for="terms">Accept Terms</label>
+        </section>
+        <section class="btn">
+          <button type="reset" id="c-button">Clear</button>
+          <button type="submit" id="s-button">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

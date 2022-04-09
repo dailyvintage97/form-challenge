@@ -1,0 +1,100 @@
+body {
+  background: rgb(207, 248, 243);
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  margin: 1rem;
+}
+
+label {
+  color: rgb(34, 43, 61);
+  display: block;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+main form {
+  background: rgb(236, 248, 247);
+  margin: 2rem auto;
+  width: 40rem;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 0.8rem;
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+}
+
+form ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+form input,
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: block;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: rgb(217, 227, 247);
+}
+
+textarea {
+  resize: none;
+}
+
+.check {
+  width: auto;
+}
+
+.btn {
+  margin: 1rem 0;
+  text-align: right;
+}
+
+.btn button {
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-left: 0.1rem;
+}
+
+.btn #c-button {
+  background-color: none;
+  color: rgb(53, 53, 53);
+}
+
+.btn #s-button {
+  color: white;
+  background-color: rgb(37, 37, 37);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex input {
+  margin-right: 0.5rem;
+}
